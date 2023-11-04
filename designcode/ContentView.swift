@@ -2,20 +2,25 @@
 //  ContentView.swift
 //  designcode
 //
-//  Created by kehinde on 01/07/2023.
+//  Created by kehinde on 29/08/2023.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
+    init(){
+        UITabBar.appearance().isHidden = true
+    }
+    @State var currentTab:Tab = .bookmark
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        TabView(selection:$currentTab){
+            Home().tag(Tab.bookmark)
+            Text("Title").tag(Tab.title)
+            Text("Title==").tag(Tab.fav)
+        }.edgesIgnoringSafeArea(.all)
+        CustomTabBar(currentTab: $currentTab)
     }
 }
 

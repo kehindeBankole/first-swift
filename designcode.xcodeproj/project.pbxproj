@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450700CF2A99753300BDD7B7 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450700CE2A99753300BDD7B7 /* AppData.swift */; };
+		45164ABE2A5B87E8005107ED /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45164ABD2A5B87E8005107ED /* DMSans-Regular.ttf */; };
+		4539969D2A9217E00050F963 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539969C2A9217E00050F963 /* LoginView.swift */; };
+		453996A02A921EFB0050F963 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4539969F2A921EFB0050F963 /* DMSans-Bold.ttf */; };
 		453CAD202A5043A9001FEE0E /* designcodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453CAD1F2A5043A9001FEE0E /* designcodeApp.swift */; };
-		453CAD222A5043A9001FEE0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453CAD212A5043A9001FEE0E /* ContentView.swift */; };
 		453CAD242A5043AA001FEE0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453CAD232A5043AA001FEE0E /* Assets.xcassets */; };
 		453CAD272A5043AA001FEE0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453CAD262A5043AA001FEE0E /* Preview Assets.xcassets */; };
+		45A27AE32A9D0C5B001164E5 /* Plans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A27AE22A9D0C5B001164E5 /* Plans.swift */; };
+		45A27AE52A9D0D01001164E5 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A27AE42A9D0D01001164E5 /* Wallet.swift */; };
+		45A27AE72A9DC4B9001164E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A27AE62A9DC4B9001164E5 /* ContentView.swift */; };
+		45A27AE92A9DC4C7001164E5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A27AE82A9DC4C7001164E5 /* Home.swift */; };
+		45B38D792AAF8770000048E1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B38D782AAF8770000048E1 /* Model.swift */; };
+		45B38D7B2AAF8CA6000048E1 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B38D7A2AAF8CA6000048E1 /* CustomTabBar.swift */; };
+		45B748642A50D2F700FAD908 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B748632A50D2F700FAD908 /* MyView.swift */; };
+		45CF338A2A6C93F500E4AF98 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CF33892A6C93F500E4AF98 /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		450700CE2A99753300BDD7B7 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		45164ABC2A5B869D005107ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		45164ABD2A5B87E8005107ED /* DMSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DMSans-Regular.ttf"; path = "../../../Downloads/DM_Sans-2/DMSans-Regular.ttf"; sourceTree = "<group>"; };
+		4539969C2A9217E00050F963 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4539969F2A921EFB0050F963 /* DMSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DMSans-Bold.ttf"; path = "../../../Downloads/DM_Sans-2/DMSans-Bold.ttf"; sourceTree = "<group>"; };
 		453CAD1C2A5043A9001FEE0E /* designcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = designcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		453CAD1F2A5043A9001FEE0E /* designcodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = designcodeApp.swift; sourceTree = "<group>"; };
-		453CAD212A5043A9001FEE0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		453CAD232A5043AA001FEE0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		453CAD262A5043AA001FEE0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45A27AE22A9D0C5B001164E5 /* Plans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plans.swift; sourceTree = "<group>"; };
+		45A27AE42A9D0D01001164E5 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		45A27AE62A9DC4B9001164E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45A27AE82A9DC4C7001164E5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		45B38D782AAF8770000048E1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		45B38D7A2AAF8CA6000048E1 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		45B748632A50D2F700FAD908 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		45CF33892A6C93F500E4AF98 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +74,22 @@
 		453CAD1E2A5043A9001FEE0E /* designcode */ = {
 			isa = PBXGroup;
 			children = (
+				45164ABD2A5B87E8005107ED /* DMSans-Regular.ttf */,
+				45164ABC2A5B869D005107ED /* Info.plist */,
 				453CAD1F2A5043A9001FEE0E /* designcodeApp.swift */,
-				453CAD212A5043A9001FEE0E /* ContentView.swift */,
+				45B748632A50D2F700FAD908 /* MyView.swift */,
 				453CAD232A5043AA001FEE0E /* Assets.xcassets */,
 				453CAD252A5043AA001FEE0E /* Preview Content */,
+				45CF33892A6C93F500E4AF98 /* BorderButton.swift */,
+				4539969C2A9217E00050F963 /* LoginView.swift */,
+				4539969F2A921EFB0050F963 /* DMSans-Bold.ttf */,
+				450700CE2A99753300BDD7B7 /* AppData.swift */,
+				45A27AE22A9D0C5B001164E5 /* Plans.swift */,
+				45A27AE42A9D0D01001164E5 /* Wallet.swift */,
+				45A27AE62A9DC4B9001164E5 /* ContentView.swift */,
+				45A27AE82A9DC4C7001164E5 /* Home.swift */,
+				45B38D782AAF8770000048E1 /* Model.swift */,
+				45B38D7A2AAF8CA6000048E1 /* CustomTabBar.swift */,
 			);
 			path = designcode;
 			sourceTree = "<group>";
@@ -125,8 +160,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45164ABE2A5B87E8005107ED /* DMSans-Regular.ttf in Resources */,
 				453CAD272A5043AA001FEE0E /* Preview Assets.xcassets in Resources */,
 				453CAD242A5043AA001FEE0E /* Assets.xcassets in Resources */,
+				453996A02A921EFB0050F963 /* DMSans-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +174,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				453CAD222A5043A9001FEE0E /* ContentView.swift in Sources */,
+				45A27AE52A9D0D01001164E5 /* Wallet.swift in Sources */,
 				453CAD202A5043A9001FEE0E /* designcodeApp.swift in Sources */,
+				45A27AE72A9DC4B9001164E5 /* ContentView.swift in Sources */,
+				45B38D7B2AAF8CA6000048E1 /* CustomTabBar.swift in Sources */,
+				45B748642A50D2F700FAD908 /* MyView.swift in Sources */,
+				45A27AE92A9DC4C7001164E5 /* Home.swift in Sources */,
+				45B38D792AAF8770000048E1 /* Model.swift in Sources */,
+				4539969D2A9217E00050F963 /* LoginView.swift in Sources */,
+				45CF338A2A6C93F500E4AF98 /* BorderButton.swift in Sources */,
+				450700CF2A99753300BDD7B7 /* AppData.swift in Sources */,
+				45A27AE32A9D0C5B001164E5 /* Plans.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +316,7 @@
 				DEVELOPMENT_TEAM = 57PCP37963;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = designcode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +346,7 @@
 				DEVELOPMENT_TEAM = 57PCP37963;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = designcode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
